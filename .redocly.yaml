@@ -9,10 +9,3 @@ lint:
     - "./config/redoc-plugin.js"
   decorators:
     redoc/replace-servers-url: error
-
-features.openapi:
-  htmlTemplate: ./docs/index.html
-  theme:
-    colors:
-      primary:
-        main: "#51329f"
