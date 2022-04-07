@@ -1,0 +1,15 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "this is the same todo app made using various different lib/frameworks",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:EduardoLopes/todo-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
