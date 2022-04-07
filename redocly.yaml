@@ -5,7 +5,3 @@ apis:
 lint:
   extends:
     - minimal
-  plugins:
-    - "./config/redoc-plugin.js"
-  decorators:
-    plugin/replace-servers-url: error
