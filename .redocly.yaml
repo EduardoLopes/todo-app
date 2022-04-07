@@ -4,7 +4,7 @@ apis:
     root: openapi.yaml
 lint:
   extends:
-    - recommended
+    - minimal
   plugins:
     - "./config/redoc-plugin.js"
   decorators:
