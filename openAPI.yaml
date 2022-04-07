@@ -2,4 +2,57 @@ openapi: 3.1.0
 info:
   title: Todo list app api
   version: 0.0.1
-paths: {} # No endpoints defined
+  contact:
+    name: Eduardo Lopes
+    email: eduardolopesds@gmail.com
+  license:
+    name: MIT
+    url: "https://github.com/EduardoLopes/todo-app/blob/main/LICENSE"
+paths:
+  /todos:
+    get:
+      summary: Get all todos
+      tags: []
+      responses: {}
+      operationId: get-todos
+      description: Get all todos
+  "/todos/{id}":
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-todos
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+    post:
+      summary: ""
+      operationId: post-todos-id
+      responses:
+        "200":
+          description: OK
+      description: Create an todo
+    put:
+      summary: ""
+      operationId: put-todos-id
+      responses:
+        "200":
+          description: OK
+      description: Update a todo
+    patch:
+      summary: ""
+      operationId: patch-todos-id
+      responses:
+        "200":
+          description: OK
+      description: Patch update a todo
+    delete:
+      summary: ""
+      operationId: delete-todos-id
+      responses:
+        "200":
+          description: OK
+      description: Patch update a todo
