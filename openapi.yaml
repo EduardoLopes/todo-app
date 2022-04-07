@@ -56,3 +56,6 @@ paths:
         "200":
           description: OK
       description: Patch update a todo
+servers:
+  - url: "http://localhost:8080"
+    description: Local Server
