@@ -1,0 +1,18 @@
+# See https://redocly.com/docs/cli/configuration/ for more information.
+apis:
+  main:
+    root: openapi.yaml
+lint:
+  extends:
+    - recommended
+  plugins:
+    - "./config/redoc-plugin.js"
+  decorators:
+    redoc/replace-servers-url: error
+
+features.openapi:
+  htmlTemplate: ./docs/index.html
+  theme:
+    colors:
+      primary:
+        main: "#51329f"
