@@ -8,4 +8,4 @@ lint:
   plugins:
     - "./config/redoc-plugin.js"
   decorators:
-    redoc/replace-servers-url: error
+    plugin/replace-servers-url: error

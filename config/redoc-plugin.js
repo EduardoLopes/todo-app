@@ -1,4 +1,4 @@
-const id = "redoc";
+const id = "plugin";
 
 function ReplaceServersURL() {
   return {
